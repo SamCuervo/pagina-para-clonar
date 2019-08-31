@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>hacking</title>
+    <!-- BOOTSTRAP CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+
+    <!-- CUSTOM CSS -->
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body>
+
+    <!-- cabeza -->
+    <header class="main-header">
+      <div class="background-overlay text-white py-5">
+        <div class="container">
+          <div class="row d-flex h-100">
+            <div class="col-sm-6 text-center justify-content-center align-self-center">
+              <h1>
+                Algunas herramientas para empezar en el tema del hacking
+              </h1>
+              <p>A continuación encontrarás algunas de las herramientas de hacking.</p>
+            </div>
+            <div class="col-sm-6">
+              <img src="img/2.jpg" class="img-fluid d-none d-sm-block">
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+   
+    <!-- intro -->
+    <section class="m5 text-center bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="m-5">
+            <h3>¿Por que es importante saber de este tema?</h3>
+            <p>
+              Las tecnicas de hacking van aumentando cada vez más y más por lo cual es importante enterarse de las distintas herramientas que pueden usar terceros para acceder a nuestra información.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- acordeon -->
+    <section class="container text-center p-5">
+      <div class="row">
+        <div class="accordion" id="accordionExample">
+          <div class="card">
+            <div class="card-header" id="headingOne">
+              <h5 class="mb-0">
+                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  Tracert 
+                </button>
+              </h5>
+            </div>
+
+            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+              <div class="card-body">
+                Es una línea de comandos que se usa para determinar la ruta que toma un paquete de protocolo de Internet (IP) para alcanzar su destino.
+				La utilidad de diagnóstico TRACERT determina la ruta a un destino mediante el envío de paquetes de eco de Protocolo de mensajes de control de Internet (ICMP) al destino. En estos paquetes, TRACERT usa valores de período de vida (TTL) IP variables. Dado que los enrutadores de la ruta deben disminuir el TTL del paquete como mínimo una unidad antes de reenviar el paquete
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingTwo">
+              <h5 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Duck Duck Go 
+                </button>
+              </h5>
+            </div>
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+              <div class="card-body">
+                Es un motor de búsqueda el cual soluciona muchos de los problemas encontrados en el navegador tan usado denominado Google.
+                <p>No te rastrea</p>
+                <p>Bloqueo de rastreadores</p>
+                <p>No filtra los resultados de búsqueda</p>
+
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingThree">
+              <h5 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Dorks de Google
+                </button>
+              </h5>
+            </div>
+            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+              <div class="card-body">
+                Google dorks son combinaciones de operadores de búsqueda especiales que se utilizan para extraer información valiosa o sensible desde Google.
+				Los robots de Google que indexan contenido (es lo que hace que un sitio sea posicionado de acuerdo a las palabras clave que se encuentran) son capaces de interpretar todo tipo de archivos, no sólo páginas Web.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <!-- BOOTSTRAP SCRIPTS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+  </body>
+</html>
